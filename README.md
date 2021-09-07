@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vineetbansal/python_packaging/HEAD)
+
 # Best Practices in Python Packaging 
 
 ### Before the workshop
@@ -12,3 +14,5 @@ and validate your setup using the sample notebook available as part of the instr
 ```
 conda install jupyterlab 
 ```
+
+If you are still having trouble installing Anaconda, you may want to try the Binder link in this README to launch the jupyter notebook remotely. Note, however, that you may have limited success with following along most of the tutorial.
