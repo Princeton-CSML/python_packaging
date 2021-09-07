@@ -2,6 +2,17 @@
 
 # Best Practices in Python Packaging 
 
+October 1, 2021
+9:00 am
+Location: 26 Prospect Avenue, Room 103
+
+This workshop is for researchers who are already using Python for their work, but who want to distribute
+their software to the broader scientific community by packaging their code for other researchers to easily use.
+We will learn about structuring our code as modules and packages, and publishing packages on PyPI and conda,
+both of which are commonly used in the life sciences to install open-source software. We will gain insights
+into ensuring reproducibility in research through the process of versioning, continuous integration and testing.
+Finally, we will look at a sample Python project that puts all these best practices together.
+
 ### Before the workshop
 
 We will be using the [Anaconda Python Distribution](https://www.anaconda.com/download) for this course. Anaconda is a popular software that gives us everything we need to get started in Python - the Python 3 interpreter, common Python libraries for scientific computing, plotting and analysis, jupyter Notebooks, and a lightweight IDE (Integrated Development Environment) for more advanced users.
