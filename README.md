@@ -2,8 +2,8 @@
 
 # Best Practices in Python Packaging 
 
-October 1, 2021
-9:00 am
+October 1, 2021\
+9:00 am\
 Location: 26 Prospect Avenue, Room 103
 
 This workshop is for researchers who are already using Python for their work, but who want to distribute
