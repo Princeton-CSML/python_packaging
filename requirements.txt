@@ -1,3 +1,5 @@
+build
 jupyterlab
 nox
 pytest
+twine
