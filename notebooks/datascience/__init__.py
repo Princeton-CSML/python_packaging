@@ -10,7 +10,7 @@ from .analysis.regression import *
 
 ### SETUP 2
 ### restrict user access to specific functions
-#from .preprocess.filter import filter_1
+#from .preprocess.filter import filter_1           # note filter has 2 functions, only 1 imported here
 #from .preprocess.transform import (transform_1, 
 #                                    transform_2)
 
@@ -23,4 +23,4 @@ from .analysis.regression import *
 #from .preprocess import transform
 #from .analysis import regression
 
-### Lastly, if a user insists on using "from datascience import *", constrain what gets imported with __all__ special variable
+### Lastly, if a user insists on using "from datascience import *", constrain what gets imported by combining SETUP 1 with __all__ special variable, containing a list of functions the user is restricted to.
