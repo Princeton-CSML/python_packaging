@@ -2,4 +2,5 @@ build
 jupyterlab
 nox
 pytest
+ipytest
 twine
