@@ -27,3 +27,22 @@ conda install jupyterlab
 ```
 
 If you are still having trouble installing Anaconda, you may want to try the Binder link in this README to launch the jupyter notebook remotely. Note, however, that you may have limited success with following along most of the tutorial.
+
+#### Other useful preparatory work
+
+- You may want to ensure that you have an account at [GitHub](https://github.com/) as well as [PyPI](https://pypi.org/), as we will be using both to illustrate some CI/CD concepts.
+
+- A final sample package that brings together a lot of what we will discuss is located at [https://github.com/vineetbansal/walrus](https://github.com/vineetbansal/walrus). You may find it useful to clone that repository for the workshop as well. A more advanced version of this package that incorporates C++ extensions is at [https://github.com/vineetbansal/walrus_cpp](https://github.com/vineetbansal/walrus_cpp).
+
+- One the Linux command line, we will be using the `tree` command quite a lot to inspect the contents of several folders. MacOS users may find it helpful to have the following lines in their `$HOME/.bash_profile`, which is a barebones implementation of `tree`:
+  ```
+  alias tree="find . -print | grep -v "^./.git/" | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+  ```
+
+- The Python interpreter and the Pytest library create cache folders in our filesystem that may get in the way of understanding the files/folders involved while authoring a package. To disable caching, all users may also want to have the following lines in their `$HOME/.bash_profile`, **just for this workshop**, and remove these later.
+  ```
+  alias pytest="pytest -p no:cacheprovider"
+  export PYTHONDONTWRITEBYTECODE=1
+  ```
+
+ Remember to run `source ~/.bash_profile` if you make any changes to your `~/.bash_profile`, of course.
